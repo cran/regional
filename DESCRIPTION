@@ -1,6 +1,6 @@
 Package: regional
 Title: Intra- and Inter-Regional Similarity
-Version: 0.3.0
+Version: 0.3.3
 Authors@R: c(
     person(given = "Jakub", family = "Nowosad", 
     role = c("aut", "cre"),
@@ -16,11 +16,12 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.1.2
 Imports: philentropy (>= 0.6.0), terra
-Suggests: supercells, sf, testthat (>= 3.0.0)
+BugReports: https://github.com/Nowosad/regional/issues
+Suggests: supercells, sf, testthat (>= 3.0.0), covr
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-02-17 12:59:07 UTC; jn
+Packaged: 2022-03-11 08:55:50 UTC; jn
 Author: Jakub Nowosad [aut, cre] (<https://orcid.org/0000-0002-1057-3721>)
 Maintainer: Jakub Nowosad <nowosad.jakub@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-02-18 08:00:02 UTC
+Date/Publication: 2022-03-14 11:30:02 UTC
